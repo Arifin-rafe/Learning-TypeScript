@@ -1,7 +1,7 @@
-let fullName = "rafe";
-let age = 30;
-let skills = "mern"
-let isSenior = true;
+let fullName : string = "rafe";
+let age : number = 30;
+let skills : string = "mern"
+let isSenior : boolean = true;
 
 fullName = "rafe arifin";
 

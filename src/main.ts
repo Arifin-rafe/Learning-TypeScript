@@ -39,8 +39,9 @@ type Person = {
   name: string;
   readonly age: number;
   isMarried?: boolean; //optional property with ? operator.can asign value or not wont give error
-  hobbies: string[]; // It's an array of strings
-  role: [number, string]; // its a tuple
+  hobbies: string[]; // It's an array of strings cant push number or boolean in it
+  role: [number, string]; // its a tuple where 1st element is number and 2nd is string.
+  // after declaration we can push more values unless we use readonly keyword because its any type after declareted types
 };
 const human: Person = {
   name: "Maximilian",

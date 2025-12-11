@@ -16,4 +16,14 @@ const personEnum = {
 };
 console.log(personEnum);
 console.log(Role.ADMIN);
+const info = (val) => {
+    if (typeof val === "number") {
+        console.log("The number is " + val);
+    }
+    else if (typeof val === "string") {
+        console.log("The string is " + val);
+    }
+};
+info(42);
+info("Hello");
 //# sourceMappingURL=enum.js.map

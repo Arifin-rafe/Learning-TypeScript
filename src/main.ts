@@ -12,11 +12,11 @@ const myInfoVoid = (firstName: string = "John", age: number = 30): void => {
 myInfoVoid();
 
 // never type function
-// const myInfoNever = (firstName: string="John", age: number=30): never=>{
-//     throw new Error(`My name is ${firstName} and I am ${age} years old.`)
-//     //if never type cant return anything or console log anything
-// }
-// myInfoNever()
+const myInfoNever = (firstName: string="John", age: number=30): never=>{
+    throw new Error(`My name is ${firstName} and I am ${age} years old.`)
+    //if never type cant return anything or console log anything
+}
+myInfoNever()
 
 //array type
 const hobbies: (string | number)[] = ["Sports", "Cooking", 60];

@@ -26,4 +26,12 @@ const info = (val) => {
 };
 info(42);
 info("Hello");
+const info2 = (val) => {
+    if (typeof val === "string") {
+        return val.toUpperCase();
+    }
+    return val + 1;
+};
+info2(42);
+info2("Hello");
 //# sourceMappingURL=enum.js.map
